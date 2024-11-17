@@ -1,0 +1,6 @@
+library(devtools)
+library(roxygen2)
+library(usethis)
+use_r("npaexpum")
+devtools::load_all()
+devtools::document()
